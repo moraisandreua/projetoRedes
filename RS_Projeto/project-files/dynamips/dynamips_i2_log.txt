@@ -1,0 +1,18 @@
+Dec 24 09:15:41.813 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Dec 24 09:15:41.814 HYPERVISOR: Started on IP = localhost, TCP port = 53317.
+Dec 24 09:15:41.825 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 24 09:15:41.825 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/franciscabarros/Desktop/UA/2Ano/1Semestre/RS/projeto/RS_Projeto/project-files/dynamips 
+Dec 24 09:15:41.825 GENERAL: working_dir=/Users/franciscabarros/Desktop/UA/2Ano/1Semestre/RS/projeto/RS_Projeto/project-files/dynamips
+Dec 24 09:15:41.826 HYPERVISOR: exec_cmd: ethsw create EngineeringSwitch 
+Dec 24 09:15:42.144 HYPERVISOR: exec_cmd: nio create_udp udp-901b709d-49e7-4b6b-bbaa-53a4f726e9e8 10003 127.0.0.1 10002 
+Dec 24 09:15:42.145 HYPERVISOR: exec_cmd: ethsw add_nio EngineeringSwitch udp-901b709d-49e7-4b6b-bbaa-53a4f726e9e8 
+Dec 24 09:15:42.161 HYPERVISOR: exec_cmd: ethsw set_access_port EngineeringSwitch udp-901b709d-49e7-4b6b-bbaa-53a4f726e9e8 1 
+Dec 24 09:15:42.216 HYPERVISOR: exec_cmd: nio create_udp udp-8fb594fe-d10f-42b0-ae53-538a6be7d34d 10005 127.0.0.1 10004 
+Dec 24 09:15:42.217 HYPERVISOR: exec_cmd: ethsw add_nio EngineeringSwitch udp-8fb594fe-d10f-42b0-ae53-538a6be7d34d 
+Dec 24 09:15:42.230 HYPERVISOR: exec_cmd: ethsw set_access_port EngineeringSwitch udp-8fb594fe-d10f-42b0-ae53-538a6be7d34d 1 
+Dec 24 09:15:42.638 HYPERVISOR: exec_cmd: nio create_udp udp-7a173a00-6193-4711-b3cd-2857e7539554 10014 127.0.0.1 10015 
+Dec 24 09:15:42.639 HYPERVISOR: exec_cmd: ethsw add_nio EngineeringSwitch udp-7a173a00-6193-4711-b3cd-2857e7539554 
+Dec 24 09:15:42.661 HYPERVISOR: exec_cmd: ethsw set_access_port EngineeringSwitch udp-7a173a00-6193-4711-b3cd-2857e7539554 1 
+Dec 24 09:15:43.078 HYPERVISOR: exec_cmd: nio create_udp udp-939c2a0a-1117-41a6-a16a-979e473a0d7d 10022 127.0.0.1 10023 
+Dec 24 09:15:43.078 HYPERVISOR: exec_cmd: ethsw add_nio EngineeringSwitch udp-939c2a0a-1117-41a6-a16a-979e473a0d7d 
+Dec 24 09:15:43.086 HYPERVISOR: exec_cmd: ethsw set_access_port EngineeringSwitch udp-939c2a0a-1117-41a6-a16a-979e473a0d7d 1 

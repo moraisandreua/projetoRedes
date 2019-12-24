@@ -1,0 +1,15 @@
+Dec 24 09:15:41.766 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Dec 24 09:15:41.766 HYPERVISOR: Started on IP = localhost, TCP port = 53256.
+Dec 24 09:15:41.773 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 24 09:15:41.773 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/franciscabarros/Desktop/UA/2Ano/1Semestre/RS/projeto/RS_Projeto/project-files/dynamips 
+Dec 24 09:15:41.773 GENERAL: working_dir=/Users/franciscabarros/Desktop/UA/2Ano/1Semestre/RS/projeto/RS_Projeto/project-files/dynamips
+Dec 24 09:15:41.774 HYPERVISOR: exec_cmd: ethsw create ManagementSwitch 
+Dec 24 09:15:42.076 HYPERVISOR: exec_cmd: nio create_udp udp-53bf3118-c5c3-4b0b-884f-a2dc2bf75c29 10001 127.0.0.1 10000 
+Dec 24 09:15:42.077 HYPERVISOR: exec_cmd: ethsw add_nio ManagementSwitch udp-53bf3118-c5c3-4b0b-884f-a2dc2bf75c29 
+Dec 24 09:15:42.091 HYPERVISOR: exec_cmd: ethsw set_access_port ManagementSwitch udp-53bf3118-c5c3-4b0b-884f-a2dc2bf75c29 1 
+Dec 24 09:15:42.554 HYPERVISOR: exec_cmd: nio create_udp udp-50dbb4de-bdec-4793-ae8e-5838c5d7f809 10012 127.0.0.1 10013 
+Dec 24 09:15:42.555 HYPERVISOR: exec_cmd: ethsw add_nio ManagementSwitch udp-50dbb4de-bdec-4793-ae8e-5838c5d7f809 
+Dec 24 09:15:42.565 HYPERVISOR: exec_cmd: ethsw set_access_port ManagementSwitch udp-50dbb4de-bdec-4793-ae8e-5838c5d7f809 1 
+Dec 24 09:15:42.964 HYPERVISOR: exec_cmd: nio create_udp udp-e4d49aa4-ce80-47bc-97d2-41a77b601208 10020 127.0.0.1 10021 
+Dec 24 09:15:42.965 HYPERVISOR: exec_cmd: ethsw add_nio ManagementSwitch udp-e4d49aa4-ce80-47bc-97d2-41a77b601208 
+Dec 24 09:15:42.990 HYPERVISOR: exec_cmd: ethsw set_access_port ManagementSwitch udp-e4d49aa4-ce80-47bc-97d2-41a77b601208 1 
